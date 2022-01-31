@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,300;0,500;0,700;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #fff;
+    
+}
+body{
+    background: url(./bg.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header{
+    background-color: rgba(13, 9, 22, 0.918);
+    
+}
+
+.boards{
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.boards > .boards-item{
+    display: flex;
+    flex-direction: column;
+    align-self: baseline;
+    max-width: 250px;
+    width: 100%;
+    background-color: rgba(13, 9, 22, 0.918);
+    margin: 0 15px 10px;
+    padding: 10px;
+    transition: .3s all linear;
+    border-radius: 3px;
+    position: relative;
+}
+.end-date{
+    color: black;
+}
+.start-date{
+    color: black;
+}
+.title{
+    padding: 5px;
+}
+.title :focus{
+    outline: 1px solid rgba(168, 168, 168, .5);
+}
+.list{
+    min-height: 40px;
+}
+
+.list-item{
+    background-color: rgb(36, 30, 66);
+    line-height: 20px;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.container-date{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+.container-date label{
+    width: 30%;
+}
+.container-date input{
+    width: 70%;
+}
+.form{
+    border-radius: 3px;
+    margin-top: auto;
+    display: none;
+}
+
+.textarea{
+    resize: none;
+    height: 60px;
+    border-radius: 3px;
+    border: none;
+    background: rgba(23, 22, 39, 0.7);
+    padding: 10px;
+    width: 100%;
+}
+.textarea:focus{
+    outline: none;
+}
+
+.buttons{
+    display: flex;
+}
+
+.add__item-btn{
+    background: rgba(26, 21, 85, 0.918);
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    width: 100%;
+    border: none;
+}
+
+.cancel__item-btn{
+    background: rgba(85, 21, 24, 0.918);
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border: none;
+}
+
+.add-btn{
+    background: rgba(64, 59, 65, 0.918);
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    border: none;
+}
+
+.logo{
+    margin-top: 10px;
+    width: 100px;
+    height: 35px;
+}
+
+.button, .button-clear{
+    background: #26729e;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 200px;
+    border: none;
+}
+

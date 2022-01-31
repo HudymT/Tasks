@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trelo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <img src="./Trello_logo.png" alt="" class="logo">
+            <div class="button">Add desk</div>
+            <div class="button-clear">Clear desk</div>
+        </div>
+    </header>
+    <div class="boards">
+        <div class="boards-item">
+            <span class="title" contenteditable="true">Plan</span>
+            <div class="list">
+            </div>
+
+            <div class="form">
+                <textarea class="textarea" placeholder='enter task'></textarea>
+                <div class="container-date">
+                    <label for="start-date">Start</label>
+                    <input type="date" class="start-date" value="2022-01-31">
+                    <label for="end-date">End</label>
+                    <input type="date" class="end-date" value="2022-01-31">
+                </div>
+                
+                
+                <div class="buttons">
+                    <button class="add__item-btn">+ Add</button>
+                    <button class='cancel__item-btn'>Cancel</button>
+                </div>
+            </div>
+            <div class="add-btn"><span>+</span> Add card</div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
